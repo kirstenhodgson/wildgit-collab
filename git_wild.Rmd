@@ -37,10 +37,19 @@ ggplot(data = diamonds, aes(x = color, y = carat) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+
 ggplot(data = diamonds, aes(x = depth, y = cut)) +
   geom_point() +
   theme_minimal()
 #random comment fjklasdjfkl;sajfklasjlk;fsakjsahgioewrnalsnfklasdjfkl;as dfsa   hi kirsten!
+
+#Making a subplot
+really_big_diamonds <- diamonds %>% 
+  filter(carat > 3)
+
+ggplot(data = really_big_diamonds, aes(x = carat, y = price)) +
+  geom_point() +
+  theme_dark()
 ```
 
 ```{r break-it-2}
