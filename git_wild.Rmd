@@ -55,7 +55,7 @@ ggplot(data = really_big_diamonds, aes(x = carat, y = price)) +
 ```{r break-it-2}
 #i have class in like 5 minutes LOL 
 
-#boodsalkfjlkasjdklf;ajsiofealk;sdjfkla
+#boodsalkfjlkasjdklf;ajsiofealk;sdjfklasdfasd
 ```
 
 ## END Discussion 3
