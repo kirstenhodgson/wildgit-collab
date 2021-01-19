@@ -53,7 +53,12 @@ ggplot(data = really_big_diamonds, aes(x = carat, y = price)) +
 ```
 
 ```{r break-it-2}
-
+# Another subset - hi Teague!
+premium <- diamonds %>% 
+  filter(cut == "Premium")
+ggplot(data = premium, aes(x = carat, y = price)) +
+  geom_point() +
+  theme_minimal()
 ```
 
 ## END Discussion 3
